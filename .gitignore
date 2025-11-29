@@ -1,0 +1,12 @@
+.cfg
+
+# .cfg is a bare git repo for tracking dotfiles on my machines
+# To install, consult this guide: https://www.atlassian.com/git/tutorials/dotfiles
+#
+# Putting copy of instructions here for archival purposes:
+# 1. Ensure alias dotcfg is set: '/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+# 2. git clone --bare <git-repo-url> $HOME/.cfg
+# 3. dotcfg checkout
+# 3.1. If `error: The following untracked working tree files would be overwritten by checkout` appears, just remove the existing files that will be overwritten
+# 4. dotcfg config --local status.showUntrackedFiles no
+
