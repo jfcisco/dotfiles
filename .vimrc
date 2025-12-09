@@ -64,3 +64,9 @@ if has('mouse')
 	set mouse=a
 endif
 
+" Allow saving of file as sudo with :w!!
+cmap w!! w !sudo tee > /dev/null %
+
+set clipboard=unnamedplus
+colo evening
+
