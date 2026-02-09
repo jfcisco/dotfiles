@@ -1,5 +1,5 @@
 function fish_greeting
-	if test -q gogreet
+	if type -q gogreet
 		gogreet
 	end
     # if not set -q fish_greeting
